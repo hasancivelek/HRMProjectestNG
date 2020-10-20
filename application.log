@@ -1,0 +1,248 @@
+2020-10-20 12:40:05,292 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] RequestAddCookies:123 - CookieSpec selected: standard
+2020-10-20 12:40:05,304 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] RequestAuthCache:77 - Auth cache not set in the context
+2020-10-20 12:40:05,306 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] PoolingHttpClientConnectionManager:265 - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-10-20 12:40:05,327 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-20 12:40:05,329 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] MainClientExec:235 - Opening connection {s}->https://raw.githubusercontent.com:443
+2020-10-20 12:40:05,380 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] DefaultHttpClientConnectionOperator:139 - Connecting to raw.githubusercontent.com/151.101.180.133:443
+2020-10-20 12:40:05,381 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] SSLConnectionSocketFactory:337 - Connecting socket to raw.githubusercontent.com/151.101.180.133:443 with timeout 0
+2020-10-20 12:40:05,437 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] SSLConnectionSocketFactory:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-10-20 12:40:05,437 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] SSLConnectionSocketFactory:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-10-20 12:40:05,438 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] SSLConnectionSocketFactory:395 - Starting handshake
+2020-10-20 12:40:05,543 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] SSLConnectionSocketFactory:425 - Secure session established
+2020-10-20 12:40:05,544 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] SSLConnectionSocketFactory:426 -  negotiated protocol: TLSv1.2
+2020-10-20 12:40:05,544 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] SSLConnectionSocketFactory:427 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2020-10-20 12:40:05,544 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] SSLConnectionSocketFactory:435 -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2020-10-20 12:40:05,545 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] SSLConnectionSocketFactory:444 -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+2020-10-20 12:40:05,545 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] SSLConnectionSocketFactory:448 -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2020-10-20 12:40:05,546 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.0.173:59053<->151.101.180.133:443
+2020-10-20 12:40:05,547 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 30000
+2020-10-20 12:40:05,547 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] MainClientExec:256 - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2020-10-20 12:40:05,547 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-10-20 12:40:05,549 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-10-20 12:40:05,550 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:133 - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2020-10-20 12:40:05,550 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6
+2020-10-20 12:40:05,551 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:136 - http-outgoing-0 >> Connection: keep-alive
+2020-10-20 12:40:05,551 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:136 - http-outgoing-0 >> Host: raw.githubusercontent.com
+2020-10-20 12:40:05,551 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-10-20 12:40:05,552 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+2020-10-20 12:40:05,552 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6[\r][\n]"
+2020-10-20 12:40:05,552 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2020-10-20 12:40:05,553 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+2020-10-20 12:40:05,553 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-20 12:40:05,553 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-10-20 12:40:05,618 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-10-20 12:40:05,618 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2020-10-20 12:40:05,618 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Content-Length: 855[\r][\n]"
+2020-10-20 12:40:05,619 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+2020-10-20 12:40:05,619 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+2020-10-20 12:40:05,619 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+2020-10-20 12:40:05,620 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "ETag: W/"fa8a55c975c98a7dfbdd35d23fa28381aff59d9dffb401d62c12d0a9c2b99fec"[\r][\n]"
+2020-10-20 12:40:05,620 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+2020-10-20 12:40:05,620 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-10-20 12:40:05,621 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+2020-10-20 12:40:05,621 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-10-20 12:40:05,621 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+2020-10-20 12:40:05,621 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "X-GitHub-Request-Id: 6D70:3018:4AA176:585DB1:5F8EFFC4[\r][\n]"
+2020-10-20 12:40:05,622 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2020-10-20 12:40:05,622 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2020-10-20 12:40:05,622 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Date: Tue, 20 Oct 2020 17:40:05 GMT[\r][\n]"
+2020-10-20 12:40:05,623 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+2020-10-20 12:40:05,623 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "X-Served-By: cache-iah17283-IAH[\r][\n]"
+2020-10-20 12:40:05,623 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "X-Cache: HIT, HIT[\r][\n]"
+2020-10-20 12:40:05,623 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "X-Cache-Hits: 3, 1[\r][\n]"
+2020-10-20 12:40:05,624 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "X-Timer: S1603215606.595999,VS0,VE35[\r][\n]"
+2020-10-20 12:40:05,624 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2020-10-20 12:40:05,624 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-10-20 12:40:05,624 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "X-Fastly-Request-ID: 616a689a6ca7a47ec5737375e5caeb04cebb359b[\r][\n]"
+2020-10-20 12:40:05,624 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Expires: Tue, 20 Oct 2020 17:45:05 GMT[\r][\n]"
+2020-10-20 12:40:05,625 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "Source-Age: 85[\r][\n]"
+2020-10-20 12:40:05,625 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-20 12:40:05,628 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-10-20 12:40:05,629 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Connection: keep-alive
+2020-10-20 12:40:05,629 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Content-Length: 855
+2020-10-20 12:40:05,629 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Cache-Control: max-age=300
+2020-10-20 12:40:05,629 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+2020-10-20 12:40:05,630 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+2020-10-20 12:40:05,630 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << ETag: W/"fa8a55c975c98a7dfbdd35d23fa28381aff59d9dffb401d62c12d0a9c2b99fec"
+2020-10-20 12:40:05,630 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+2020-10-20 12:40:05,630 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << X-Content-Type-Options: nosniff
+2020-10-20 12:40:05,630 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << X-Frame-Options: deny
+2020-10-20 12:40:05,631 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+2020-10-20 12:40:05,631 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Via: 1.1 varnish (Varnish/6.0)
+2020-10-20 12:40:05,631 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << X-GitHub-Request-Id: 6D70:3018:4AA176:585DB1:5F8EFFC4
+2020-10-20 12:40:05,631 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Content-Encoding: gzip
+2020-10-20 12:40:05,631 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Accept-Ranges: bytes
+2020-10-20 12:40:05,631 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Date: Tue, 20 Oct 2020 17:40:05 GMT
+2020-10-20 12:40:05,632 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Via: 1.1 varnish
+2020-10-20 12:40:05,632 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << X-Served-By: cache-iah17283-IAH
+2020-10-20 12:40:05,632 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << X-Cache: HIT, HIT
+2020-10-20 12:40:05,632 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << X-Cache-Hits: 3, 1
+2020-10-20 12:40:05,632 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << X-Timer: S1603215606.595999,VS0,VE35
+2020-10-20 12:40:05,633 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Vary: Authorization,Accept-Encoding
+2020-10-20 12:40:05,633 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-10-20 12:40:05,633 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << X-Fastly-Request-ID: 616a689a6ca7a47ec5737375e5caeb04cebb359b
+2020-10-20 12:40:05,633 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Expires: Tue, 20 Oct 2020 17:45:05 GMT
+2020-10-20 12:40:05,634 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] headers:125 - http-outgoing-0 << Source-Age: 85
+2020-10-20 12:40:05,637 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] MainClientExec:285 - Connection can be kept alive indefinitely
+2020-10-20 12:40:05,643 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x96][0xcb][0x8e][0xe3]6[0x10]E[0xf7][0xfe][\n]"
+2020-10-20 12:40:05,643 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "[0x1][0xb3]n[0x8a]oR[\r]p[0x93]yd[0x15][0xcc]"[0xf9][0x1][0xb5][0xcd][0xb6][0x85][0x91]MCR[0x8f][0x83]|[0xfd]T[0xf1][0xa1]f[0x13][0x9][0x90]E[0x3]}[0x8f][0x8a][0xc5][0x12]Y[0xba][0xe5]O[0xdd]_[0x97]i[0xed]^[0xa7][0xd9]w[0xc7]p[0xdb][0xc6][0xe9][0xb6]v[0xdb][0xc5]w?n[0xe1]q[0xeb]N[0xcb][0xf4][0xd3]/[0x1d][0xfc][0xad]S[0x80]'[0xc7]p[0xbd][0x8f][0xdb][0xf4][0x2][0xd1][0x8f]i[0xbb][0xc4][0xc8]cX[0x16][0xbf][0xde][0xc3][0xed]4[0xdd][0xce][0xdd][0xcb][0x12][0x1e][0xeb][0xfb][0x92][0xc3][0xe1]S[0xf7][B[0xcf][0xdd][0xef]![0x9c]a[0xe5][0xe7][0xcb][0x12][0xae][0xbe][0x1b]o[0xa7][0xf4][0xef][0xf4]v[0xed][0x9e][0xba]/q[0xab][0xe7][0xee][0x18][0x9f][0xa6][0x8d]a[0xf1][0x9f][0xe1]m9[0xfa][0xe7][0xee][0xb2]m[0xf7][0xe7][0xbe][0xaf][0x9f][0x92]c^M[0xc2]r[0xee]OP[0xef][0x1c][0xc6][0xd3]zH1[0xd6]8k[0x8]%[0x92][J8-T;[0xab]#[0x95]@y[0xa1][0xca]Y[0x85][0x94]YA[0xac])T:+#[0x95][0x86][0x88]=[0x83]p[0x10][0x84][0x94][\n]"
+2020-10-20 12:40:05,643 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << ""[0x86]B[0x99][0xb3][0xc])[0x95][0x92]0a[0xb][0xa6][0xe]v[0xa7][0x10][0x7][0xb5]0[0xaa]36[0x83]3C[0xc4]R[0x11][0xb1]S[0xeb][0x8c][0x8d][0x94]B[0xe][0xaa][\n]"
+2020-10-20 12:40:05,643 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "6[0xce][0xe0][0x8b][0x8][0xab][0x15][0xe4]/T;[0xa3]#[0xa5][0x3]a|[0xcf][0xa1][0x9c][0xc1]7[0x11][0xc6]P[0xc2][0xde][0xa3][0xa5]32b>[0x90]=V8[0x83]o"4[0xbc][0x90].%[0x1b][0xee]8[0x91]{[0xc][0xfb][0xa0]([0xaa]R[0x98][0x1e]P[0xc9][0xa2],[0xaa]r[0xa2][0xda][0xa0]bEiT[0xa5][0x18][0xad]@[0xed]G[0xa4]%[0xaa]r[0xe6]Z[0xa0]*[0xfb]i[0xac]E[0xec][0xfb]a-b[0xdf][0xf]k[0x11][0xe2]C[0x83][0xfd][0x11][0xfe][0x99][0xe6]y[0xec][0xbe]M[0x8b][\r]W]u[0xf6][0xc7][0x1f][0xe1]_[0x9b]j[0x85][0xae]:C/[0xbf][0xbd][0x10][0xe8][0xee][0xfe][0x9a]R[0xf4][0xd5][0x82]~[0xf1][0xb3][0x1f]W[0xbf][0x1e]^S^[0xb8]lh[0x1e][0xb8][0x93][0x1d][0xd0][0x6][0xc0][0x5]7[0xc0]"[0xd0][0x15]0-[0xd0]-P-[0x90]-[0x10]-[0xe0]-`-[0xa0][\r][0xd0]C[0xb]b[0xa5][0xaa][0x2][0xb1]RY[0x1][0xdd][0x2][0xd5][0x82]X[0xa9][0xa8][0x80]hA[0xac][0x94]W V[0xca]*@[0x1b][0xa0][0x86][0x16][0xd8][0x16][0x98][0x16][0xc4]Ji[0x5]T[0x1]u[0xdb]|[0xbf][0xfb]e[0xac][0x9a]%[0xa0][0xfe]?[0xcd][0x12][0x3][0xd7][0xf0][0xba]=[0xc6][0xc5]'U<[0xa9]m[0x9d][0xf8][0x10][0xae][0xe3][0xdd]g[0x18][0xe5][0x99][0xd2][0xca]g[0xec][0x90] [0xdc][0xcb][0xbb][0xcd][0xc]&C[[0xbb][0xc][0x13][0x99][0x9a][0xf]&C3[0xd5][0x95][0xc7][0x98][0x92]UU[0x16]cKVY[0x19][0xc][0xe3]e[0xbd][0xa8][\r]F[0xe4]Z[0xe1][0xde]*[0xd9][0xf7][0xca][0xbe][0x10][0x85][0x1a]j[0x91]]![0x89]l[\n]"
+2020-10-20 12:40:05,644 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:73 - http-outgoing-0 << "IdOH"[B[0x12][0xd9][0x11][0x92][0xc8][0x86][0x90]D[0xf6][0x83]$X2[0x80]$h%$VP*[0x96]X[0x81][0xc8][0xfb]H[0xac][0x80][0xe7][0xc3][0x90]:[0x89][0xf][0xe]2[0x1d][0x97][0x80]7[0xda]}=[0x9d]}[0xd5][0x13][0xd7][0xd5][0x3][0xf8][0xcf][0xa6]8[0xf9][0x9f]~[0xc6][0xac][0xe4]Z2[0xc4][0xe][0xf1][0xb7][0xa7][0xb7][0xb5][0xdf][0xd9][0x13]&[0xe9][0xb7][0x10][0xe6][0xb5][0xf8][0x97][0xdc]$[0x7][0xa4][0x16][0xee][0x16][0xaf]F[0xe3][0xa9]'[0x92]'[0x98][0xd6]C!yzi[0xf8]r[0xa4]M([0x8f].[0xa5]%19*[0xcf]-[0x15]?[0xc9]H[0xca][0xcc][0x82][0xcb]Wy[0x1d]w[0x96]#Rp[0xbb][0x89][0x94][0x11][0xc6]41&[0xa1]2[0xbe]4[0x83]vKa[0xfb][0xec]b"g/s[0x8b]c[0x17]%[0x92]G[0x16][0x17];[0xc9][0xe3][\n]"
+2020-10-20 12:40:05,644 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] wire:87 - http-outgoing-0 << "[0x1b]?[0x93]<[0xa9][0x98][0x18]p<#[0x92][0xd2][0xdd][0x17][0xff][0x4]?A[0xb6]q[0x9e][0xfd])A[0xee]4a[0x86][0x81][0xf1]G[0xc9][0x1c]4[0xa9][0xe6][0xc3][0x90]$u[0xf0]%([0xaa]E[0x94][0xc2]:[0xf8][0xb0][0xa4][0x18][0x92][0xe4][0xd8]V0I[0xad]N[0x92]:[0x86][0x9f][0x1d]t[0xdd]/@[0xd9][0xc8][0xa1][0xf8][0x8][0x0][0x0]"
+2020-10-20 12:40:05,646 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+2020-10-20 12:40:05,646 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2020-10-20 12:40:05,646 DEBUG [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-20 12:40:14,108  INFO [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:62 - starting title method -------------->verify login page
+2020-10-20 12:40:14,115  INFO [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:66 - ending title method ------------> verify login page
+2020-10-20 12:40:14,115  WARN [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:67 - some warning
+2020-10-20 12:40:14,116 ERROR [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:68 - some error
+2020-10-20 12:40:14,116 FATAL [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:69 - fatal error
+2020-10-20 12:40:19,277 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-10-20 12:40:19,278 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-10-20 12:40:19,278 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-10-20 12:40:19,279 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-10-20 12:40:19,279 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-10-20 12:40:19,279 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-10-20 12:40:19,281 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-10-20 12:40:19,281 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-10-20 12:40:24,110  INFO [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:62 - starting title method -------------->verify login page
+2020-10-20 12:40:24,115  INFO [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:66 - ending title method ------------> verify login page
+2020-10-20 12:40:24,115  WARN [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:67 - some warning
+2020-10-20 12:40:24,115 ERROR [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:68 - some error
+2020-10-20 12:40:24,115 FATAL [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:69 - fatal error
+2020-10-20 12:40:34,119  INFO [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:76 - starting Forget passlink -------------->login page
+2020-10-20 12:40:34,155  INFO [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:78 - ending Forget passlink ------------> login page
+2020-10-20 12:40:34,155  WARN [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:79 - some warning
+2020-10-20 12:40:34,155 ERROR [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:80 - some error
+2020-10-20 12:40:34,155 FATAL [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:81 - fatal error
+2020-10-20 12:40:44,127  INFO [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:76 - starting Forget passlink -------------->login page
+2020-10-20 12:40:44,156  INFO [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:78 - ending Forget passlink ------------> login page
+2020-10-20 12:40:44,156  WARN [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:79 - some warning
+2020-10-20 12:40:44,156 ERROR [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:80 - some error
+2020-10-20 12:40:44,157 FATAL [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:81 - fatal error
+2020-10-20 12:40:49,133  INFO [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:88 - startig login test  -------------->login page
+2020-10-20 12:40:50,520  INFO [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:94 - ending login method ------------> login page
+2020-10-20 12:40:50,520  WARN [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:95 - some warning
+2020-10-20 12:40:50,520 ERROR [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:96 - some error
+2020-10-20 12:40:50,520 FATAL [TestNG-test=Orange HRM Parallel  Tests -- chrome-2] LoginPageTest:97 - fatal error
+2020-10-20 12:40:54,135  INFO [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:88 - startig login test  -------------->login page
+2020-10-20 12:40:55,471  INFO [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:94 - ending login method ------------> login page
+2020-10-20 12:40:55,472  WARN [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:95 - some warning
+2020-10-20 12:40:55,472 ERROR [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:96 - some error
+2020-10-20 12:40:55,472 FATAL [TestNG-test=Orange HRM Parallel  Tests -- firefox-1] LoginPageTest:97 - fatal error
+2020-10-20 12:40:59,170 DEBUG [TestNG-tests-2] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:40:59,171 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-10-20 12:40:59,172 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-10-20 12:40:59,173 DEBUG [TestNG-tests-2] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-10-20 12:40:59,331 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-10-20 12:40:59,331 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-10-20 12:40:59,331 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-10-20 12:40:59,331 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-10-20 12:40:59,332 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-10-20 12:40:59,332 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-10-20 12:40:59,334 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-10-20 12:40:59,334 DEBUG [Finalizer] DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2020-10-20 12:40:59,335 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-10-20 12:40:59,371 DEBUG [TestNG-tests-2] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:40:59,371 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-10-20 12:40:59,372 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-10-20 12:40:59,372 DEBUG [TestNG-tests-2] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-10-20 12:40:59,373 DEBUG [TestNG-tests-2] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:40:59,374 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-10-20 12:40:59,374 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-10-20 12:40:59,374 DEBUG [TestNG-tests-2] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-10-20 12:40:59,379 DEBUG [TestNG-tests-2] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:40:59,379 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-10-20 12:40:59,379 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-10-20 12:40:59,379 DEBUG [TestNG-tests-2] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-10-20 12:40:59,388 DEBUG [TestNG-tests-2] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:40:59,388 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-10-20 12:40:59,388 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-10-20 12:40:59,388 DEBUG [TestNG-tests-2] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-10-20 12:40:59,395 DEBUG [TestNG-tests-2] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:40:59,395 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-10-20 12:40:59,396 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-10-20 12:40:59,396 DEBUG [TestNG-tests-2] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-10-20 12:40:59,406 DEBUG [TestNG-tests-2] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:40:59,407 DEBUG [TestNG-tests-2] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:40:59,408 DEBUG [TestNG-tests-2] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:40:59,409 DEBUG [TestNG-tests-2] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:40:59,409 DEBUG [TestNG-tests-2] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:40:59,410 DEBUG [TestNG-tests-2] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:40:59,410 DEBUG [TestNG-tests-2] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:40:59,411 DEBUG [TestNG-tests-2] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:40:59,412 DEBUG [TestNG-tests-2] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:40:59,412 DEBUG [TestNG-tests-2] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:40:59,413 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-10-20 12:40:59,413 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-10-20 12:40:59,413 DEBUG [TestNG-tests-2] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-10-20 12:40:59,416 DEBUG [TestNG-tests-2] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:40:59,416 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2020-10-20 12:40:59,416 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2020-10-20 12:40:59,417 DEBUG [TestNG-tests-2] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2020-10-20 12:40:59,418 DEBUG [TestNG-tests-2] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:40:59,419 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-10-20 12:40:59,419 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-10-20 12:40:59,419 DEBUG [TestNG-tests-2] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-10-20 12:40:59,421 DEBUG [TestNG-tests-2] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:40:59,421 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-10-20 12:40:59,421 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-10-20 12:40:59,421 DEBUG [TestNG-tests-2] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-10-20 12:40:59,425 DEBUG [TestNG-tests-2] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:40:59,425 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-10-20 12:40:59,426 DEBUG [TestNG-tests-2] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-10-20 12:40:59,426 DEBUG [TestNG-tests-2] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-10-20 12:41:04,150 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:41:04,151 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-10-20 12:41:04,151 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-10-20 12:41:04,152 DEBUG [TestNG-tests-1] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-10-20 12:41:04,157 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:41:04,157 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-10-20 12:41:04,158 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-10-20 12:41:04,158 DEBUG [TestNG-tests-1] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-10-20 12:41:04,159 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:41:04,159 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-10-20 12:41:04,159 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-10-20 12:41:04,159 DEBUG [TestNG-tests-1] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-10-20 12:41:04,161 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:41:04,161 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-10-20 12:41:04,162 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-10-20 12:41:04,162 DEBUG [TestNG-tests-1] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-10-20 12:41:04,165 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:41:04,166 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-10-20 12:41:04,166 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-10-20 12:41:04,166 DEBUG [TestNG-tests-1] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-10-20 12:41:04,170 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:41:04,170 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-10-20 12:41:04,170 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-10-20 12:41:04,170 DEBUG [TestNG-tests-1] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-10-20 12:41:04,174 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:41:04,174 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:41:04,175 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:41:04,175 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:41:04,176 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:41:04,177 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:41:04,178 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:41:04,178 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:41:04,178 DEBUG [TestNG-tests-1] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-10-20 12:41:04,179 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:41:04,179 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-10-20 12:41:04,179 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-10-20 12:41:04,179 DEBUG [TestNG-tests-1] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-10-20 12:41:04,182 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:41:04,182 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2020-10-20 12:41:04,182 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2020-10-20 12:41:04,182 DEBUG [TestNG-tests-1] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2020-10-20 12:41:04,184 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:41:04,184 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-10-20 12:41:04,184 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-10-20 12:41:04,184 DEBUG [TestNG-tests-1] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-10-20 12:41:04,186 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:41:04,186 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-10-20 12:41:04,186 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-10-20 12:41:04,186 DEBUG [TestNG-tests-1] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-10-20 12:41:04,188 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-10-20 12:41:04,189 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-10-20 12:41:04,189 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-10-20 12:41:04,189 DEBUG [TestNG-tests-1] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/mrs.z./.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

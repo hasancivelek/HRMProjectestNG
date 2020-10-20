@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="12" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Orange HRM Regression Suite" duration-ms="71855" started-at="2020-10-20T12:39:44 CDT" finished-at="2020-10-20T12:40:55 CDT">
+    <groups>
+    </groups>
+    <test name="Orange HRM Parallel  Tests -- chrome" duration-ms="66546" started-at="2020-10-20T12:39:44 CDT" finished-at="2020-10-20T12:40:50 CDT">
+      <class name="com.qa.orangehrm.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@e8fadb0]" name="setUp" is-config="true" duration-ms="2652" started-at="2020-10-20T12:39:59 CDT" finished-at="2020-10-20T12:40:01 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:1, instance:com.qa.orangehrm.tests.LoginPageTest@e8fadb0]" name="verifyLoginPageTitle" duration-ms="12141" started-at="2020-10-20T12:40:01 CDT" description="verify page title method" finished-at="2020-10-20T12:40:14 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@e8fadb0]" name="tearDown" is-config="true" duration-ms="84" started-at="2020-10-20T12:40:14 CDT" finished-at="2020-10-20T12:40:14 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@e8fadb0]" name="setUp" is-config="true" duration-ms="1859" started-at="2020-10-20T12:40:14 CDT" finished-at="2020-10-20T12:40:16 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyForgetPassLink()[pri:2, instance:com.qa.orangehrm.tests.LoginPageTest@e8fadb0]" name="verifyForgetPassLink" duration-ms="18092" started-at="2020-10-20T12:40:16 CDT" description="verify forget password link method" finished-at="2020-10-20T12:40:34 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgetPassLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@e8fadb0]" name="tearDown" is-config="true" duration-ms="83" started-at="2020-10-20T12:40:34 CDT" finished-at="2020-10-20T12:40:34 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@e8fadb0]" name="setUp" is-config="true" duration-ms="1730" started-at="2020-10-20T12:40:34 CDT" finished-at="2020-10-20T12:40:35 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.orangehrm.tests.LoginPageTest@e8fadb0]" name="loginTest" duration-ms="14547" started-at="2020-10-20T12:40:35 CDT" description="verify valid login credentials" finished-at="2020-10-20T12:40:50 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@e8fadb0]" name="tearDown" is-config="true" duration-ms="93" started-at="2020-10-20T12:40:50 CDT" finished-at="2020-10-20T12:40:50 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.orangehrm.tests.LoginPageTest -->
+      <class name="com.qa.orangehrm.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orangehrm.tests.HomePageTest@6d64b553]" name="setUp" is-config="true" duration-ms="4101" started-at="2020-10-20T12:39:59 CDT" finished-at="2020-10-20T12:40:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.qa.orangehrm.tests.HomePageTest@6d64b553]" name="verifyHomePageTitle" duration-ms="5730" started-at="2020-10-20T12:40:03 CDT" description="veriyf home page title" finished-at="2020-10-20T12:40:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.HomePageTest@6d64b553]" name="tearDown" is-config="true" duration-ms="88" started-at="2020-10-20T12:40:09 CDT" finished-at="2020-10-20T12:40:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orangehrm.tests.HomePageTest@6d64b553]" name="setUp" is-config="true" duration-ms="3130" started-at="2020-10-20T12:40:09 CDT" finished-at="2020-10-20T12:40:12 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageHeader()[pri:2, instance:com.qa.orangehrm.tests.HomePageTest@6d64b553]" name="verifyHomePageHeader" duration-ms="6776" started-at="2020-10-20T12:40:12 CDT" description="verify home page header" finished-at="2020-10-20T12:40:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.HomePageTest@6d64b553]" name="tearDown" is-config="true" duration-ms="90" started-at="2020-10-20T12:40:19 CDT" finished-at="2020-10-20T12:40:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orangehrm.tests.HomePageTest@6d64b553]" name="setUp" is-config="true" duration-ms="3128" started-at="2020-10-20T12:40:19 CDT" finished-at="2020-10-20T12:40:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoggedInUserAccount()[pri:3, instance:com.qa.orangehrm.tests.HomePageTest@6d64b553]" name="verifyLoggedInUserAccount" duration-ms="6785" started-at="2020-10-20T12:40:22 CDT" description="verify account name" finished-at="2020-10-20T12:40:29 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.HomePageTest@6d64b553]" name="tearDown" is-config="true" duration-ms="92" started-at="2020-10-20T12:40:29 CDT" finished-at="2020-10-20T12:40:29 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orangehrm.tests.HomePageTest@6d64b553]" name="setUp" is-config="true" duration-ms="3424" started-at="2020-10-20T12:40:29 CDT" finished-at="2020-10-20T12:40:32 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAuthentication()[pri:4, instance:com.qa.orangehrm.tests.HomePageTest@6d64b553]" name="verifyAuthentication" duration-ms="6473" started-at="2020-10-20T12:40:32 CDT" description="verify URL" finished-at="2020-10-20T12:40:39 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAuthentication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.HomePageTest@6d64b553]" name="tearDown" is-config="true" duration-ms="89" started-at="2020-10-20T12:40:39 CDT" finished-at="2020-10-20T12:40:39 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.orangehrm.tests.HomePageTest -->
+    </test> <!-- Orange HRM Parallel  Tests - chrome -->
+    <test name="Orange HRM Parallel  Tests -- firefox" duration-ms="71855" started-at="2020-10-20T12:39:44 CDT" finished-at="2020-10-20T12:40:55 CDT">
+      <class name="com.qa.orangehrm.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@6f8d7714]" name="setUp" is-config="true" duration-ms="5599" started-at="2020-10-20T12:40:04 CDT" finished-at="2020-10-20T12:40:09 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:1, instance:com.qa.orangehrm.tests.LoginPageTest@6f8d7714]" name="verifyLoginPageTitle" duration-ms="14407" started-at="2020-10-20T12:40:09 CDT" description="verify page title method" finished-at="2020-10-20T12:40:24 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@6f8d7714]" name="tearDown" is-config="true" duration-ms="434" started-at="2020-10-20T12:40:24 CDT" finished-at="2020-10-20T12:40:24 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@6f8d7714]" name="setUp" is-config="true" duration-ms="3298" started-at="2020-10-20T12:40:24 CDT" finished-at="2020-10-20T12:40:27 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyForgetPassLink()[pri:2, instance:com.qa.orangehrm.tests.LoginPageTest@6f8d7714]" name="verifyForgetPassLink" duration-ms="16301" started-at="2020-10-20T12:40:27 CDT" description="verify forget password link method" finished-at="2020-10-20T12:40:44 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgetPassLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@6f8d7714]" name="tearDown" is-config="true" duration-ms="427" started-at="2020-10-20T12:40:44 CDT" finished-at="2020-10-20T12:40:44 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@6f8d7714]" name="setUp" is-config="true" duration-ms="3455" started-at="2020-10-20T12:40:44 CDT" finished-at="2020-10-20T12:40:48 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.orangehrm.tests.LoginPageTest@6f8d7714]" name="loginTest" duration-ms="7430" started-at="2020-10-20T12:40:48 CDT" description="verify valid login credentials" finished-at="2020-10-20T12:40:55 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.orangehrm.tests.LoginPageTest@6f8d7714]" name="tearDown" is-config="true" duration-ms="448" started-at="2020-10-20T12:40:55 CDT" finished-at="2020-10-20T12:40:55 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.orangehrm.tests.LoginPageTest -->
+    </test> <!-- Orange HRM Parallel  Tests - firefox -->
+  </suite> <!-- Orange HRM Regression Suite -->
+</testng-results>
